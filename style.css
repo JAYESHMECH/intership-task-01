@@ -1,0 +1,98 @@
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 20px;
+  font-family: Arial, sans-serif;
+  background: #eef2f7;
+  color: #222;
+}
+
+.container {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 30px;
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 5px 20px rgba(0,0,0,0.1);
+}
+
+h1 {
+  text-align: center;
+  color: #174ea6;
+  font-size: 26px;
+}
+
+.container > p {
+  text-align: center;
+  color: #666;
+  margin-bottom: 25px;
+}
+
+label {
+  display: block;
+  margin: 15px 0 7px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #bbb;
+  border-radius: 6px;
+  font-size: 16px;
+}
+
+input:focus {
+  outline: 2px solid #4285f4;
+  border-color: #4285f4;
+}
+
+button {
+  width: 100%;
+  padding: 13px;
+  margin-top: 20px;
+  border: none;
+  border-radius: 6px;
+  background: #1769e0;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #0e4fae;
+}
+
+button.reset {
+  margin-top: 10px;
+  background: #687386;
+}
+
+.result {
+  margin-top: 25px;
+  padding: 18px;
+  background: #e8f4ff;
+  border-radius: 8px;
+  text-align: center;
+}
+
+.result h2 {
+  margin: 0;
+  font-size: 18px;
+}
+
+#emi {
+  color: #087443;
+  font-size: 30px;
+  font-weight: bold;
+  margin: 12px 0;
+}
+
+#details {
+  line-height: 1.7;
+  font-size: 14px;
+}
